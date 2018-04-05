@@ -2,6 +2,16 @@
 
 Tutorial followed: https://www.youtube.com/watch?v=oa9cnWTpqP8
 
+Building: `ng build`
+
+Building for prod reduces file sizes by 89%: `ng build --prod`
+
+If deploying to server in a subfolder: `ng build --prod --base-href="myurl"` 
+
+Deploying to github pages:  
+`ng build --prod --base-href="https://github.com/pgokul-developer/ng5-simple-proj"`
+`angular-cli-ghpages`
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Development server
